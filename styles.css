@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+  margin: 0 auto;
+  width: inherit;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+
+.container h1 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-weight: 300;
+}
+
+#absensi_form {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#absensi_form label {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#absensi_form input {
+  height: 40px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#absensi_form button {
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: teal;
+  color: white;
+  border-radius: 15px;
+}
+
+#root {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  width: inherit;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.24);
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 20px;
+}
